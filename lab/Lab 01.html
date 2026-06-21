@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>My Portfolio</h1>
+
+    <!-- Profile Section -->
+    <section>
+        <h2>Profile Picture</h2>
+        <img src="image/profile.jpg" alt="Profile Picture" width="200">
+
+        <h2>Full Name</h2>
+        <p>Your Full Name</p>
+
+        <h2>Job Title</h2>
+        <p>Web Developer</p>
+
+        <h2>Address</h2>
+        <p>Your Address Here</p>
+    </section>
+
+    <!-- Bio Section -->
+    <section>
+        <h2>Bio</h2>
+        <p>
+            Write a short introduction about yourself here.
+        </p>
+    </section>
+
+    <!-- Social Links -->
+    <section>
+        <h2>Social Links</h2>
+
+        <ul>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Pages -->
+    <section>
+        <h2>Portfolio Pages</h2>
+
+        <ul>
+            <li><a href="html/education.html">Education</a></li>
+            <li><a href="html/experience.html">Experience</a></li>
+            <li><a href="html/projects.html">Projects</a></li>
+            <li><a href="html/contactme.html">Contact Me</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+        <form>
+
+            <fieldset>
+                <legend>Contact Me</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+                <br><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+                <br><br>
+
+                <label>Gender:</label>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Services</legend>
+
+                <input type="checkbox" id="web" name="service" value="Web Development">
+                <label for="web">Web Development</label>
+                <br>
+
+                <input type="checkbox" id="aiml" name="service" value="AI/ML">
+                <label for="aiml">AI/ML</label>
+                <br>
+
+                <input type="checkbox" id="backend" name="service" value="Backend">
+                <label for="backend">Backend</label>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Reason of Contact</legend>
+
+                <select name="reason">
+                    <option value="">Select One</option>
+                    <option value="Job">Job</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Thesis">Thesis</option>
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </section>
+
+    <!-- JS File -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
