@@ -1,2 +1,0 @@
-# wbt-summer-2025-2026
-AIUB WEBTECH COURSE
