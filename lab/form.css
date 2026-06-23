@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: white;
+}
+
+.container{
+    width: 700px;
+    margin: 10px auto;
+}
+
+.steps{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: red;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    padding: 3px;
+    vertical-align: top;
+}
+
+.label{
+    width: 180px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    width: 220px;
+    height: 20px;
+    border: 1px solid #999;
+}
+
+select{
+    width: 225px;
+    height: 24px;
+    border: 1px solid #999;
+}
+
+textarea{
+    width: 350px;
+    border: 1px solid #999;
+}
+
+small{
+    font-size: 11px;
+    color: #444;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 4px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    padding: 3px 10px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #555;
+}
+
+.footer p{
+    margin: 5px 0;
+}
